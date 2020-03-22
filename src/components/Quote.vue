@@ -19,10 +19,14 @@ export default {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 24px;
         color: #6e6e6e;
+        border:1px solid #dddddd;
+        margin: 15px 0;
+        padding: 15px;
         &.quote{
             cursor: pointer;
             &:hover{
-                background-color: #ffe2e2;
+                background-color: #127bff;
+                color:#fff;
             }
         }
     } 
